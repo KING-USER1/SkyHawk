@@ -6,7 +6,7 @@ from . import BASE, SESSION
 
 
 class CatBroadcast(BASE):
-    __tablename__ = "catbroadcast"
+    __tablename__ = "skyroadcast"
     keywoard = Column(UnicodeText, primary_key=True)
     group_id = Column(String(14), primary_key=True, nullable=False)
 
